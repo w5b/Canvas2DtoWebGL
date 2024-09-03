@@ -3,9 +3,6 @@
 //replaces the Canvas2D functions by WebGL functions, the behaviour is not 100% the same but it kind of works in many cases
 //not all functions have been implemented
 
-if(typeof(GL) == "undefined")
-	throw("litegl.js must be included to use enableWebGLCanvas");
-
 function enableWebGLCanvas( canvas, options )
 {
 	var gl;
